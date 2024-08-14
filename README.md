@@ -15,19 +15,23 @@ ChatIOM is community-led project entirely developed using AI Agents and passiona
 
 - **Distributed Inference Infrastructure**: As ChatIOM is a community project it is built on top of [GAIANET](https://www.gaianet.ai/) which allows local partners and volunteers to provide shared inference ingrastructure. 
 
-### Chat Transcript
-
-![01_Chat_Transcript](ManxAI_Agent_Conversations/0005_ruby_based_app_conversation_by_manxAI.pdf)
+### [Chat Transcript](ManxAI_Agent_Conversations/0005_ruby_based_app_conversation_by_manxAI.pdf)
 
 ## Access
 
-The platform is accessible via the GaiaNet node at [https://chatiom-community.manx.ai](https://chatiom-community.manx.ai), offering seamless connectivity for users.
+The platform is accessible via Two URLS:
+
+1. The web application (for community members to use ) : https://ChatIOM.manx.ai 
+2. Distributed Inference Node:  [https://chatiom-community.manx.ai](https://chatiom-community.manx.ai), offering 100% OpenAI compatible Chat Completions api.
 
 ## Contribution
+
 
 We welcome contributions from the community to enhance and expand the capabilities of ChatIOM. Join us in building a robust AI ecosystem for the Isle of Man.
 Just fork this repository and start building. 
 
+Credits:
+1. Brian (for the idea & logo)
 
 ---
-
+*** This project is under development ***
