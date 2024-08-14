@@ -1,0 +1,93 @@
+<!-- views/index.erb -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .chat-container {
+      width: 400px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .chat-header {
+      background-color: #ddd;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .chat-header img {
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+    }
+    .chat-messages {
+      padding: 10px;
+      height: 300px;
+      overflow-y: auto;
+      border-bottom: 1px solid #ddd;
+    }
+    .chat-input {
+      display: flex;
+      padding: 10px;
+    }
+    .chat-input input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+    .chat-input button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .chat-input button:hover {
+      background-color: #218838;
+    }
+    .message {
+      margin-bottom: 10px;
+    }
+    .message.user {
+      text-align: right;
+    }
+    .message.bot {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <img src="/img/logo.jpeg" alt="ChatIOM Logo">
+      Isle of Man's AI Community.
+    </div>
+    <div class="chat-messages">
+      <% if @response_message %>
+        <div class="message user"><strong>You:</strong> <%= params[:message] %></div>
+        <div class="message bot"><strong>Bot:</strong> <%= @response_message %></div>
+      <% end %>
+    </div>
+    <form action="/chat" method="post" class="chat-input">
+      <input type="text" name="message" placeholder="Type your message here" required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
