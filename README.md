@@ -2,7 +2,7 @@
 
 ***Isle of Man's Community-First, Privacy-First gateway to AI Adoption***
 
-ChatIOM is community-led project entirely developed using AI Agents and passionate community volunters, designed to serve as a safe haven for the Isle of Man's AI community. It operates on private infrastructure, ensuring security and privacy for its users.
+ChatIOM is community-led project entirely developed using AI Agents and passionate community volunteers, designed to serve as a safe place for the Isle of Man's AI community. It operates on private infrastructure, ensuring security and privacy for its users.
 
 ![Screenshot](ManxAI_Agent_Conversations/app_screenshot_1.jpg)
 
@@ -34,7 +34,7 @@ We welcome contributions from the community to enhance and expand the capabiliti
 Just fork this repository and start building. 
 
 Credits:
-1. Brian (for the idea & logo)
+1. Brian (for the idea,logo and stirring the conversation)
 
 ---
 *** This project is under development ***
