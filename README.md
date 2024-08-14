@@ -16,6 +16,9 @@ ChatIOM is community-led project entirely developed using AI Agents and passiona
 - **Distributed Inference Infrastructure**: As ChatIOM is a community project it is built on top of [GAIANET](https://www.gaianet.ai/) which allows local partners and volunteers to provide shared inference ingrastructure. 
 
 ### [Chat Transcript](ManxAI_Agent_Conversations/0005_ruby_based_app_conversation_by_manxAI.pdf)
+ 
+ ![Preview of Code Generation](ManxAI_Agent_Conversations/very_short_screen_cast_of_code_generation.gif)
+
 
 ## Access
 
